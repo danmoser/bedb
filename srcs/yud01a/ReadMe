@@ -1,0 +1,180 @@
+J/A+A/368/912  Polarization and rotational velocities of Be stars (Yudin, 2001)
+================================================================================
+Statistical analysis of intrinsic polarization, IR excess and projected
+rotational velocity distributions of classical Be stars.
+    Yudin R.V.
+   <Astron. Astrophys. 368, 912 (2001)>
+   =2001A&A...368..912Y
+================================================================================
+ADC_Keywords: Stars, Be ; Polarization ; Rotational velocities
+Keywords: classical Be stars: polarization - projected rotational velocities -
+          near IR excesses - far IR excesses
+
+Abstract:
+    We present the results of statistical analyses of a sample of 628 Be
+    stars. The parameters of intrinsic polarization p_*_, projected
+    rotational velocity (vsini), and near IR excesses have been
+    investigated. The values of p_*_ have been estimated for a much larger
+    and more representative sample of Be stars (~490 objects) than
+    previously.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe          80        .  This file
+appen1.dat     100      628  Observational data of classical Be stars
+appen2.dat      57      498  Observed interstellar and intrinsic polarization
+appen.tex      132     1135  LaTeX version of appendices I and II
+--------------------------------------------------------------------------------
+
+See also:
+   II/220 : Polarisation of Be stars (McDavid, 1986-1999)
+
+Byte-by-byte Description of file: appen1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---    Name      HD (<III/135>), BD (<I/119>) or CPD (<I/108>)
+                                  name
+  13- 16  I4    ---    HR        ? HR (<V/50>) number
+      17  A1    ---  m_HR        [AB] Multiplicity index on HR
+  19- 22  I4    ---    MWC       ? MWC (Merrill & Burwell, 1933ApJ....78...87M,
+                                    1943ApJ....98..153M, 1949ApJ...110..387M)
+                                    number
+  24- 35  A12   ---    SpType    MK spectral type
+      38  A1    ---  u_E(V-L)    [~] Indicates an approximate E(V-L)
+  39- 43  F5.2  mag    E(V-L)    ? Calculated colour excess E(V-L) (G1)
+      45  A1    ---  l_Pintr     Limit flag on Pintr
+  46- 49  F4.2  %      Pintr     ? Calculated intrinsic V band polarization (G1)
+      50  A1    ---  n_Pintr     [+] +: observed polarization
+  52- 54  I3    km/s   <vsini>   ? Weighted average projected rotational
+                                     velocity (G1)
+  56- 58  I3    km/s e_<vsini>   ? rms uncertainty on <vsini>
+  60- 64  F5.2  mag    E(V-12um) ? Average far IR excess E(V-12um) at 12{mu}m
+  66- 87  A22   ---    Names     Other names
+  89-103  A15   ---    Rem       Remarks
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: appen2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1- 11  A11   ---     Name      HD (<III/135>), BD (<I/119>) or CPD (<I/108>)
+                                       name
+  15- 20  F6.1  pc      Dist      ? Distance
+      21  A1    ---     Note      [*] *: no objects in 3{deg}-vicinity (1)
+  22- 25  F4.2  %       Pobs      ? Observed polarisation
+  27- 30  F4.2  %     e_Pobs      ? rms uncertainty on Pobs
+  32- 36  F5.1  deg     PAobs     ? Position angle of observed polarisation
+  38- 41  F4.2  %       Pinst     ? Interstellar polarization
+  43- 45  I3    deg     PAinst    ? Position angle of interstellar polarization
+      47  A1    ---   l_Pintr     Limit flag on Pintr
+  48- 51  F4.2  %       Pintr     Intrinsic polarization
+      52  A1    ---   r_Pintr     [+os] Notes on Pintr (1)
+  54- 56  I3    deg     PAintr    ? Position angle of intrinsic polarization
+--------------------------------------------------------------------------------
+Note (1): Symbols used:
+       *: no objects in 3{deg}-vicinity, from Ghosh et al. (1999AJ....118.1061G)
+       +: observed polarization
+       o: Pintr from Ghosh et al. (1999AJ....118.1061G)
+       s: Pintr from McLean & Brown (1978A&A....69..291M) reduced to V band
+--------------------------------------------------------------------------------
+
+Global notes:
+Note (G1):
+  References to the sources of optical and IR photometry:
+     Dougherty et al., 1991AJ....102.1753D
+     SIMBAD, simbad.u-strasbg.fr/SIMBAD
+     Gezari, D.Y. et al., 1999, Cat. <II/225>
+     Hoffleit & Jaschek, 1982, Cat. <V/50>
+     Sterken, 1990, in Proc.: ``The infrared spectral region of stars", Eds.:
+       Jaschek, C. and Andrillat, Y. Cambridge Univ. Press, p.319
+     Grillo et al., 1992ApJS...81..795G
+     Hillenbrand et al., 1992ApJ...397..613H
+
+  References to the sources of optical polarimetry:
+     Poeckert et al., 1979AJ.....84..812P
+     McLean & Brown, 1978A&A....69..291M
+     Hall & Mikesell, 1953, Publ. US Naval Obs., XVII, Pt.I
+     Ghosh et al., 1999AJ....118.1061G
+     WUPPOL, 1999, (www.sal.wisc.edu/WUPPE/polcats/wuppol.html)
+     Leroy, 1993A&AS..101..551L
+     McDavid, 1999PASP..111..494M
+     Serkowski et al., 1975ApJ...196..261S
+     Quirrenbach, 1997ApJ...479..477Q
+     Clarke & Bjorkman, 1998A&A...331.1059C
+     Huang et al., 1989A&AS...78..431H
+     Bjorkman et al., 1997, AAS Meeting 191, 43.03
+     Coyne et al., 1967AJ.....72..887C
+     Jian & Bhatt, 1995A&AS..111..399J
+     Yudin & Evans, 1998A&AS..131..401Y
+     Vosnchinnikov & Marchenko, 1982SvA....26..673V
+     Bjorkman & Schulte-Ladbeck, 1994, ASP Conf. Ser. 62, 74
+     McDavid, 2000AJ....119..352M
+     Heiles, 2000AJ....119..923H, Cat. <II/226>
+
+  References to the sources of vsini data:
+     Ballereau et al., 1995A&AS..111..423B
+     Balona, 1995MNRAS.277.1547B
+     Balona et al., 1992A&AS...92..533B
+     Balona, 1990MNRAS.245...92B
+     Bernacca & Perinotto, 1971CoAsi.250....1B
+     Bjorkman et al., 1997, AAS Meeting 191, 43.03
+     Briot, 1986A&A...163...67B
+     Brown & Verschueren, 1997A&A...319..811B
+     Carpenter et al., 1984ApJ...286..741C
+     Clark & Steele, 2000A&AS..141...65C
+     Conti & Ebberts, 1977ApJ...213..438C
+     Corporon & Lagrange, 1999A&AS..136..429C
+     Cote & Waters, 1987A&A...176...93C
+     Dachs et al., 1981A&AS...43..427D
+     Doazan et al., 1981, In Proc. IAU Symp. No.98, Be stars, eds.: M.Jaschek,
+      H.-G. Groth, Dordrecht, p. 319
+     Elias et al., 1997ApJ...484..394E
+     Finkenzeller, 1985A&A...151..340F
+     Ghosh, 1988A&AS...75..261G
+     Ghosh et al., 1999AJ....118.1061G
+     Halbedel, 1996PASP..108..833H
+     Henrichs, 1999, In Proc. IAU Coll. N 169, Eds.: B. Wolf, O. Stahl, A.W.
+      Fullerton. Springer, Lecture Notes in Physics, 523, 305
+     Herrero, , 1994, Space Sci. Rev. 66, 137
+     Hirata, 1993, in Proc. IAU Symp. No 162, Eds.: Balona, L.A., Henrich, H.F.
+      and Le Contel, J.M., p.448
+     Hoffleit & Jaschek, 1982, Cat. <V/50>
+     Howarth et al., 1997MNRAS.284..265H
+     Jaschek & Jaschek, 1993, Cat. < VI/57>
+     Kaper, 1999, In Proc. IAU Coll. N 169, Eds.: B. Wolf, O. Stahl, A.W.
+      Fullerton. Springer, Lecture Notes in Physics, 523, 193
+     Levato & Maloroda, 1970PASP...82..741L
+     Lyubimkov et al., 1997MNRAS.286..549L
+     Mennickent et al., 1994A&AS..106..427M
+     Penny, 1996ApJ...463..737P
+     Prinja, 1993, in Proc. IAU Symp. No 162, Eds.: Balona, L.A., Henrich, H.F.
+      and Le Contel, J.M., p.507
+     Prosser, 1992AJ....103..488P
+     Quirrenbach, 1993, in Proc. IAU Symp. No 162, Eds.: Balona, L.A., Henrich,
+      H.F. and Le Contel, J.M., p.450
+     Rivinius et al., 1999A&A...348..831R
+     SIMBAD, 1999, (simbad.u-strasbg.fr/SIMBAD)
+     Short & Bolton, 1994, in Proc. IAU Symp. No.162, Pulsation, Rotation and
+      Mass Loss in Early-Type Stars, Eds.: L.A.Balona, H.F., Henrichs and J.M.
+      Le Contel, Kluwer, p.171
+     Slettebak, 1966ApJ...145..121S
+     Slettebak et al., 1997PASP..109....1S
+     Slettebak, 1982ApJS...50...55S
+     Snow, 1981ApJ...251..139S
+     Snow, 1982ApJ...253L..39S
+     Steele et al., 1999A&AS..137..147S
+     Turner et al., 1978PASP...90..285T
+     Uesugi & Fukuda, 1982, Cat. <III/63>
+     WUPPOL, 1999, (www.sal.wisc.edu/WUPPE/polcats/wuppol.html)
+     Wolff et al., 1978ApJS...37..371W
+     Wolff et al., 1982ApJ...252..322W
+     van den Ancker et al., 1998A&A...330..145V
+--------------------------------------------------------------------------------
+
+Acknowledgements: Ruslan Yudin <ruslan61@hotmail.com>
+
+================================================================================
+(End)                                          Patricia Bauer [CDS]  26-Feb-2001

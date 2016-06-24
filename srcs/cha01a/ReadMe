@@ -1,0 +1,259 @@
+J/A+A/378/861       Spectroscopy of Be stars                 (Chauville+, 2001)
+================================================================================
+High and intermediate-resolution spectroscopy of Be stars.
+An atlas of H{gamma}, He I 4471 and Mg II 4481 lines.
+    Chauville J., Zorec J., Ballereau D., Morrell N., Cidale L., Garcia A.
+   <Astron. Astrophys. 378, 861 (2001)>
+   =2001A&A...378..861C
+================================================================================
+ADC_Keywords: Stars, Be ; Spectroscopy
+Keywords: stars: emission-line, Be - stars: fundamental parameters -
+          stars: spectroscopy
+
+Description:
+    The 270 spectra enclosed are those used in the atlas and are described
+    in the Table 1 of the paper: stars with magnitudes and spectral types,
+    dates of observations and other data.
+
+    All are normalized and corrected from the radial velocity due to Earth
+    movement, but not corrected from the radial velocity of the star
+    itself. The heliocentric Julian day of the mid-exposure appears in the
+    header with a comment keyword. Very often it cannot be derived by a
+    simple formula from the beginning and the time exposure, when the
+    spectrum is the result of the sum of several successive ones, or when
+    clouds have obliged to interrupt the exposure. For this reason, it is
+    always indicated.
+
+    The HD number of the star appears always in the name of the file, with
+    additional letters to distinguish the different spectra of a same
+    star.
+
+    The tracings of the atlas (72 FITS files) are described in the
+    subsection 2.4 of the paper and available with the electronic version.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .  This file
+stars.dat         73      270  Star positions and spectrum characteristics
+table2.dat       116      209  Measurements carried out on the photospheric-like
+                                component of the H{gamma} line
+table3.dat        54      242  Measurements carried out on the HeI 4471 line
+table4.dat        77      267  Measurements carried out on the MgII 4481 line
+table5.dat        30      260  Measurements carried out on the FeII 4351 line
+table6.dat        43      116  Vsini determinations and other fundamental
+                                parameters
+table7.dat        37      146  Model circumstellar envelope parameters
+tables.tex       121     1465  LaTeX version of the tables
+fit/*              .      270  Spectra
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: stars.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units      Label    Explanations
+--------------------------------------------------------------------------------
+   1-  2  A2    ---        ---      [HD]
+   4-  9  I6    ---        HD       HD (Cat. <III/135>) number
+  11- 12  I2    h          RAh      Right ascension (J2000)
+      13  A1    ---        ---      [:]
+  14- 15  I2    min        RAm      Right ascension (J2000)
+      16  A1    ---        ---      [:]
+  17- 20  F4.1  s          RAs      Right ascension (J2000)
+      22  A1    ---        DE-      Declination sign (J2000)
+  23- 24  I2    deg        DEd      Declination (J2000)
+      25  A1    ---        ---      [:]
+  26- 27  I2    arcmin     DEm      Declination (J2000)
+      28  A1    ---        ---      [:]
+  29- 30  I2    arcsec     DEs      Declination (J2000)
+  32- 41  A10 "DD/MM/YYYY" ObsDate  Observation date
+  43- 44  I2    h          UTh      Time of begin exposure
+      45  A1    ---        ---      [:]
+  46- 47  I2    min        UTm      Time of begin exposure
+      48  A1    ---        ---      [:]
+  49- 50  I2    s          UTs      Time of begin exposure
+  52- 58  F7.1  s          ExpTime  Exposition time
+  60- 74  A15   ---        Fits     Spectrum file name (in fig subdirectory) (1)
+--------------------------------------------------------------------------------
+Note (1): Name of the files:
+     If annnnnnb.fitj: Spectra of HD nnnnnn, taken with Aurelie
+                        spectrograph at the OHP.
+     If nnnnnnab.fitj: Spectra of HD nnnnnn, taken at ESO or in Argentina.
+     All spectra are normalized and corrected to Sun.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HD        HD (Cat. <III/135>) number
+   8- 15  A8 "YY/MM/DD" Date      Observation date
+  17- 23  F7.5  ---     a         a parameter (1)
+  25- 31  F7.5  ---     b         b parameter (1)
+  33- 40  F8.5  ---     c         c parameter (1)
+  42- 47  F6.3  0.1nm   lambdac   {lambda}_c_ parameter (1)
+  49- 53  F5.3  ---     rc        r_c_ = 1 - (F_{lambda}c_/F*_0_) (2)
+  55- 60  F6.2  km/s    Deltap    ? Separation of the emission peaks
+  62- 67  F6.2  km/s    Delta1/2  ?  Full width at half maximum
+  69- 73  F5.3  ---     rp        ? Mean residual peak emission intensity
+  75- 80  F6.3  ---     ra        ? Intensity at the central absorption in the
+                                     emission component measured from the
+                                     photospheric-like profile
+  82- 87  F6.3  0.1nm   lambda1   ? Wavelength where the emission rises from the
+                                     underlying photospheric-like line
+                                     (lambda1={lambda}_1_-4340{AA})
+      88  A1    ---     ---       [-]
+  89- 94  F6.3  0.1nm   lambda2   ? Wavelength where the emission rises from the
+                                     underlying photospheric-like line
+                                     (lambda2={lambda}_2_-4340{AA})
+  96-101  F6.4  0.1nm   W         ? Equivalent width of the total emission above
+                                     the underlying photospheric-like
+                                     absorption (3)
+ 103-108  F6.4  0.1nm   W+        ? Equivalent width of the total emission in
+                                     both peaks above the underlying
+                                     photospheric-like absorption profile (3)
+ 110-116  F7.4  0.1nm   W-        ? Total equivalent width of the absorption
+                                      below the underlying photospheric-like
+                                      absorption profile (3)
+--------------------------------------------------------------------------------
+Note (1): Parameters which characterize the empirically determined
+    photospheric absorption component of the line profile used to separate
+    the emission component:
+        {psi}({lambda}) = exp{-[a*({lambda}-{lambda}_c_)^b^+c)]^-1^}
+Note (2): r_c_ = 1 - (F_{lambda}c_/F*_0_) , where F_{lambda}c_/F*_0_ is
+    the flux measured at the line center relative to the continuum
+Note (3): the definitions are:
+    W  = [(F_{lambda}_-F^*^_{lambda}_)/F^*^_o_]d{lambda}
+    W+ = above F_{lambda}_/F^*^_o_=1.0
+    W- = below F_{lambda}_/F^*^_o_=1.0
+    where F^*^_{lambda}_ is the underlying photospheric-like
+    absorption at the emission peaks wavelengths {lambda}p and F^*^_o_
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HD        Hd number
+   8- 15  A8 "YY/MM/DD" Date      Observation date
+  17- 22  F6.3  ---     lambdac   {lambda}_c_ (given in {lambda}-4471{AA})
+  24- 28  F5.3  ---     Flc/F0    Central intensity in the line absorption,
+                                   F_{lambda}_c__/F^*^_o_
+  30- 34  F5.3  0.1nm   delta1/2  Full width at half maximum
+  36- 41  F6.3  0.1nm   lambda1   Wavelength {lambda}_1_
+                                   (given in {lambda}_1_-4400{AA})
+      42  A1    ---     ---       [-]
+  43- 48  F6.3  0.1nm   lambda2   Wavelength {lambda}_2_
+                                   (given in {lambda}_2_-4400{AA})
+  50- 54  F5.3  0.1nm   EW        Equivalent width of the line between which the
+                                   equivalent width was calculated (1)
+--------------------------------------------------------------------------------
+Note (1): For those HeI 4471 lines which are heavily blended with the
+    neighbouring MgII 4481 line, we calculated two equivalent widths.
+    The first estimate corresponds to the integration between the
+    indicated wavelengths (lambda1, lambda2) and the second is simply
+    twice the equivalent width of the blue half of the line. This last
+    is also preceded by the resulting (lambda1, lambda2) interval
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    --      HD        HD (Cat. <III/135>) number
+   8- 15  A8 "YY/MM/DD" Date      Observation date
+  17- 18  A2    ---     Em        [e12 c] Emission (e1 or e2) peaks or
+                                           MgII fine absorption lines (c) (1)
+  20- 25  F6.3  0.1nm   lambdac   ? Wavelength of the minimum in the absorption
+                                     line, given in {lambda}_c_-4481{AA}
+  27- 31  F5.3  ---     Flc/F0    ? Central intensity in the line absorption,
+                                     F_{lambda}_c__/F^*^_o_,
+  33- 38  F6.3  km/s    RVem      ? Radial velocity of emission peak
+  40- 44  F5.3  ---     Iem       ? Intensity of emission peak
+  46- 50  F5.3  0.1nm   delta1/2  ? Full width at half intensity, {Delta}_1/2_
+  52- 57  F6.3  0.1nm   lambda1   ? Wavelength between which the equivalent
+                                     width was calculated ({lambda}_1_ is given
+                                     in {lambda}_1_-4400{AA})
+      58  A1    ---     ---       [-]
+  59- 64  F6.3  0.1nm   lambda2   ? Wavelength between which the equivalent
+                                     width was calculated ({lambda}_2_ is given
+                                     in {lambda}_2_-4400{AA})
+  66- 70  F5.3  0.1nm   W1        ? Equivalent width of the absorption
+                                     (or absorption component) (2)
+  72- 77  F6.3  0.1nm   W2        ? Total equivalent width of the emission
+                                     components above the continuum (1)
+--------------------------------------------------------------------------------
+Note (1): When two emission peaks are seens, we measured the radial
+    velocity of each peak and its intensity. The emission peaks are
+    identified by the letters e1 and e2. Sometimes, at the bottom of the
+    relatively large Mg II line, appears a little fine absorption, and
+    even sometimes 2. Letter c concerns the top of this fine absorption.
+
+Note (2): If there is no W2 value, W1 (positive) represents the
+   equivalent width of the absorption line;
+    if the is W2, W1 (negative) is the equivalent width of the sum of both
+    emission peaks above the continuum and W1 (positive) is the equivalent
+    width of the absorption component below the continuum
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label    Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HD       HD (Cat. <III/135>) number
+   8- 15  A8 "YY/MM/DD" Date     Observation date
+      17  A1    ---     Comp     [eai] Component (1)
+  19- 24  F6.3  0.1nm   lambda   Wavelength of the Component (a, e or i)
+                                  in {lambda}-4351{AA}
+  26- 30  F5.3  ---     Fl/F0    Total intensity F_{lambda}_/F^*^_o_
+--------------------------------------------------------------------------------
+Note (1): e = emission component
+          a = absorption component
+          i = inflection
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table6.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---      HD      HD (Cat. <III/135>) number
+   8- 10  I3    km/s     Vsini   Rotational velocity
+  12- 13  I2    km/s   e_Vsini   ? rms uncertainty in Vsini
+      14  A1    ---    r_Vsini   [a] a: Vsini from Slettebak
+                                         (1982ApJS...50...55S)
+  16- 17  I2    ---    n_Vsini   ? Number of independent determinations of Vsini
+  19- 23  F5.3  [K]      logTeff ? Adopted effective temperature (1)
+  25- 28  F4.2  [cm/s2]  logg    ? Adopted surface gravity (1)
+  30- 32  I3    km/s     Vc      Equatorial critical velocity
+  34- 35  I2    deg      i       Aspect angle (2)
+  37- 39  I3    deg      di1     Delta_i1_ (2)
+  41- 43  I3    deg      di2     Delta_i2_ (2)
+--------------------------------------------------------------------------------
+Note (1): Teff and logg were obtained in the fitting procedure
+Note (2): Aspect angle determination:
+     i is for <{omega}>=0.795
+     i+di1 for <{omega}>=0.6 or <{omega}>={omega}_min_
+     i+di2 for V(<{omega}>) = Vc
+     In stars where apparently Vsini>Vc, we considered i=90{deg}
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table7.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HD        HD (Cat. <III/135>) number
+   8- 15  A8 "YY/MM/DD" Date      Observation date
+  17- 21  F5.3  ---     tauo      {tau}_o_ parameter (1)
+  23- 25  I3    ---     DeltaD    {Delta}_D_ parameter (1)
+  27- 31  F5.3  ---     Sl/F*0    S_l_/F^*^_o_ parameter (1)
+  33- 37  F5.3  ---    Re/R*L1/2  (R_e_/R_*_){Lambda}^1/2^ parameter (1)
+--------------------------------------------------------------------------------
+Note (1): The parameters used in fig. 12 are defined as follow:
+     {gamma} = [(R_e_/R_*_)^2^x{Lambda} - 1](S_l_/F^*^_o_)
+     {tau}_o_ = ({pi}^1/2^e^2^/mc^2^){lambda}_Hgamma_fN_T_/{delta}_D_
+     See Sect. 5.4 of the paper.
+--------------------------------------------------------------------------------
+
+Acknowledgements: Juan Zorec <zorec@iap.fr>
+================================================================================
+(End)                                          Patricia Bauer [CDS]  28-Aug-2001

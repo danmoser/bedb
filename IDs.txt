@@ -1,0 +1,667 @@
+alpha_Eri, hd10144, aeri, Achernar, *_alf_Eri
+17_Tau, hd23302, 17tau, *_17_Tau
+19_Tau, hd23338, 19tau, *_q_Tau
+20_Tau, hd23408, 20tau, *_20_Tau
+23_Tau, hd23480, 23tau, *_23_Tau
+eta_Tau, hd23630, etau, *_eta_Tau
+28_Tau, hd23862, 28tau, *_28_Tau
+228_Eri, hd28497, 228eri, *_228_Eri
+56_Eri, hd30076, 56eri, *_56_Eri
+105_Tau, hd32991, 105tau, *_105_Tau
+lambda_Eri, hd33328, leri, *_lam_Eri
+psi_1_Ori, hd35439, pori, *_psi01_Ori
+hd35502, h35502
+delta_Ori_C, hd36485, dori
+120_Tau, hd36576, 120tau, *_120_Tau
+theta_1_Ori_C, hd37022, tori, *_tet01_Ori_C
+hd37017, hr1890, V*_V1046_Ori
+zeta_Tau, hd37202, ztau, *_zet_Tau
+sigma_Ori_E, hd37468, sori, *_sig_Ori
+V725_Tau, hd245770, v725tau, V*_V725_Tau
+omega_Ori, hd37490, oori, *_ome_Ori
+alpha_Col, hd37795, acol, *_alf_Col
+hd37776, h37776, V*_V901_Ori
+hd41335, hr2142
+theta_Col, hd42167, tcol, *_tet_Col
+hd45871, h45871
+hd45725, hr2356, *_bet01_Mon
+HESS_J0632+057, hd259440, hess
+10_CMa, hd48917, 10cma, *_10_CMa
+hd49131, hr2501
+kappa_CMa, hd50013, kcma, *_kap_CMa
+hd50123, hr2545, V*_HZ_CMa
+hd54309, hr2609
+27_CMa, hd56014, 27cma, *_27_CMa
+28_CMa, hd56139, 28cma, *_ome_CMa
+hd57682, h57682
+hd58155, hr2819
+hd58343, hr2825
+hd58978, h58978
+beta_CMi, hd58715, bcmi, *_bet_CMi
+z_Pup, hd60606, zpup, *_z_Pup
+hd61556, h61556, *_k02_Pup
+l_Pup, hd62623, lpup, *_l_Pup
+omicron_Pup, hd63462, opup, *_omi_Pup
+hd64740, h64740
+hd66194, hr3147
+r_Pup, hd68980, rpup, *_r_Pup
+f_Car, hd75311, fcar, *_f_Car
+hd78764, hr3642, *_E_Car
+hd88661, hr4009
+omega_Car, hd89080, ocar, *_ome_Car
+hd89890, hr4074, *_J_Vel
+hd91120, hr4123
+p_Car, hd91465, pcar, *_p_Car
+hd93563, hr4221
+GG_Car, hd94878, ggcar
+AG_Car, hd94910, agcar, V*_AG_Car
+hd96446, h96446
+del_Cen, hd105435, dcen, *_del_Cen
+39_Cru, hd110335, 39cru, *_39_Cru
+BZ_Crucis, hd110432, bzcru
+lambda_Crucis, hd112078, lcru, *_lam_Cru
+GX_304-1, gx304, V*_V850_Cen
+PSR_B1259-63, psrb12
+mu_Cen, hd67472, mcen
+hd120991, hr5223
+sigma_Lupi, hd127381, slup, *_sig_Lup
+eta_Cen, hd127973, ecen, *_eta_Cen
+kappa_Lupi, hd134481, klup, *_kap_Lup
+mu_Lupi, hd135734, mlup, *_mu._Lup
+hd138769, hr5781, *_d_Lup
+hd142184, hr5907, V*_V1040_Sco
+48_Lib, hd142983, 48lib, *_48_Lib
+delta_Sco, hd143275, dsco, *_del_Sco
+chi_Oph, hd148184, coph, *_chi_Oph
+hd148937, h148937
+tau_Sco, hd149438, tsco, *_tau_Sco
+zeta_Oph, hd149757, zoph, *_zet_Oph
+gamma_Ara, hd157246, gara, *_gam_Ara
+iota_Ara, hd157042, iara, *_iot_Ara
+51_Oph, hd158643, 51oph, *_c_Oph
+alpha_Ara, hd158427, aara, *_alf_Ara
+66_Oph, hd164284, 66oph, *_66_Oph
+lambda_Pav, hd173948, lpav, *_lam_Pav
+ups_Sgr, hd181615, usgr, *_ups_Sgr
+hd182180, hr7355
+hd184279, h184279
+hd191612, h191612
+eps_Cap, hd205637, ecap, *_eps_Cap
+eta_PsA, hd209014, etpsa, *_eta_PsA
+omicron_Aqr, hd209409, oaqr, *_omi_Aqr
+hd209522, hr8408
+31_Peg_, hd212076, 31peg, *_31_Peg
+pi_Aqr, hd212571, paqr, *_pi._Aqr
+eps_PsA, hd214748, eppsa, *_eps_PsA
+bet_Psc, hd217891, bpsc, *_bet_Psc
+psi_2_Aqr, hd219688, psaqr, *_psi02_Aqr
+eps_Tuc, hd224686, etuc, *_eps_Tuc
+HD23512, hd23512, h23512
+chi02_Ori, hd41117, ochi, *_chi02_Ori
+HR3708, hd80558, h3708, V*_LR_Vel
+nu_sco, hd145502, nsco, *_nu._Sco
+omicron_sco, hd147084, osco, *_omi_Sco
+eta_aql, hd187929, eaql, *_eta_Aql
+hd144, *_10_Cas
+hd4180, *_omi_Cas
+hd5394, *_gam_Cas
+hd6811, *_phi_And
+hd10516, *_phi_Per
+hd11606
+hd18552
+hd19243
+hd20336
+hd22192, *_psi_Per
+hd22780
+hd23016, *_13_Tau
+hd23552
+hd24534, V*_X_Per
+hd25940, *_c_Per
+hd32343, *_11_Cam
+hd35411, *_eta_Ori
+hd37657
+hd37967
+hd38010, V*_V1165_Tau
+hd40978
+hd42545, *_f01_Ori
+hd44458
+hd45314
+hd45542, *_nu._Gem
+hd45910
+hd45995
+hd47054
+hd50083
+hd53974, V*_FN_CMa
+hd57219, *_ups02_Pup
+hd58050
+hd60848
+hd65875
+hd77320
+hd83953, *_I_Hya
+hd86612
+hd105521
+hd109387, *_kap_Dra
+hd112091, *_mu.02_Cru
+hd120324, *_mu._Cen
+hd124367
+hd127972, *_eta_Cen
+hd131492, *_tet_Cir
+hd137387, *_kap01_Aps
+hd138749, *_tet_CrB
+hd142926, *_4_Her
+hd162732, *_z_Her
+hd167128
+hd174237
+hd175869, *_64_Ser
+hd178175
+hd183656
+hd183914, *_bet_Cyg_B
+hd184915, *_kap_Aql
+hd185037, *_11_Cyg
+hd187811, *_12_Vul
+hd189687, *_25_Cyg
+hd191610, *_b02_Cyg
+hd192044, *_20_Vul
+hd193911, *_25_Vul
+hd194335
+hd198183, *_lam_Cyg
+hd200120, *_f01_Cyg
+hd201733
+hd203374
+hd203467, *_6_Cep
+hd206773
+hd208057, *_16_Peg
+hd208682
+hd210129, *_25_Peg
+hd214168, *_8_Lac_B
+hd217050
+hd217543
+hd217675, *_omi_And
+hd224544
+hd224559
+hd7636
+hd9709
+hd11415, *_eps_Cas
+hd12302
+hd12856
+hd13051, V*_V351_Per
+hd13429
+hd13661
+hd13669
+hd13758
+hd13867
+hd13890
+hd14422
+hd14605
+hd14850
+hd15238
+hd15450
+hd18877
+hd20017
+hd20134
+hd20340
+hd20418, *_31_Per
+hd20899
+hd21212
+hd21362
+hd21455
+hd21551
+hd21641
+hd21650
+hd22298
+hd23478
+hd23800
+hd23982
+hd24479
+hd25348
+hd25799, V*_V490_Per
+hd26356
+hd26398
+hd26420
+hd26670
+hd26906
+hd27846
+hd29441
+hd29866
+hd30123
+hd32190
+hd32990, *_103_Tau
+hd33152
+hd33232
+hd33461
+hd33599
+hd33604
+hd33988, *_12_Aur
+hd34257
+hd34921
+hd34959
+hd35165
+hd35345
+hd35347
+hd36012
+hd36376
+hd36408
+hd36665
+hd37115
+hd37330
+hd37541
+hd38087
+hd38191
+hd38708
+hd39018
+hd39340
+hd39478
+hd40193
+hd42054
+hd42529
+hd43285
+hd43544
+hd43703
+hd44506
+hd44637
+hd44996
+hd45626
+hd45726, *_bet_Mon_B
+hd46380
+hd46680
+hd47359
+hd47761
+hd48282
+hd49330
+hd49336
+hd49787
+hd49888
+hd49977
+hd50658, *_psi09_Aur
+hd50696
+hd50820
+hd50938
+hd51354
+hd51480
+hd52244
+hd52356
+hd52437
+hd52721
+hd52812
+hd52918, *_19_Mon
+hd53257, *_44_Gem
+hd53367
+hd53416
+hd54464
+hd54475, *_D_Pup
+hd54786
+hd55135
+hd55538
+hd55606
+hd56806
+hd57150, *_ups01_Pup
+hd57386
+hd57393
+hd57539
+hd58011
+hd58127
+hd59094
+hd59498
+hd60307
+hd60757
+hd60855
+hd61224
+hd61355
+hd61925, *_d04_Pup
+hd62367
+hd62532
+hd62654
+hd62729
+hd62753
+hd62780
+hd63150
+hd63359
+hd64109
+hd64298
+hd65663
+hd65719
+hd68468
+hd69168
+hd69404
+hd69425
+hd71072
+hd71510
+hd71934
+hd72014
+hd72063
+hd72067
+hd74401
+hd75081
+hd75658
+hd76534
+hd77032
+hd79351, *_a_Car
+hd79621
+hd79778
+hd80834
+hd81357
+hd81654
+hd81753
+hd82830
+hd83043
+hd83060
+hd83597
+hd84523
+hd84567
+hd86272
+hd86689
+hd87380
+hd87543
+hd87901, *_alf_Leo
+hd89884
+hd90187
+hd90563
+hd91188
+hd92027
+hd92061
+hd92714
+hd92938
+hd93030, *_tet_Car
+hd93237
+hd93561
+hd93683
+hd94648
+hd96357
+hd96864
+hd98624
+hd98927
+hd99354
+hd100199
+hd100324
+hd100673, *_A_Cen
+hd100856
+hd100889, *_tet_Crt
+hd102742
+hd102776, *_j_Cen
+hd105382
+hd105675
+hd105753
+hd107348, *_zet_Crv
+hd109857
+hd110863
+hd112999
+hd113120
+hd113605
+hd113902
+hd114200
+hd114800
+hd114981
+hd116781
+hd117111
+hd117357
+hd118246
+hd121556
+hd121847, *_47_Hya
+hd122450
+hd122669
+hd122691
+hd124771, *_eps_Aps
+hd125159
+hd127489
+hd127617
+hd129954
+hd133738
+hd134401
+hd135160
+hd136415, *_gam_Cir_A
+hd136556
+hd137432
+hd137518
+hd139431
+hd139790
+hd140336
+hd140784
+hd140926
+hd140946
+hd141637, *_b_Sco
+hd141926
+hd142237
+hd144320
+hd144708, *_11_Sco
+hd144965
+hd144970
+hd145846
+hd146444
+hd146463
+hd147274
+hd147302
+hd147756
+hd148259
+hd148877
+hd149298
+hd149313
+hd149671, *_eta01_TrA
+hd149729
+hd152060
+hd152478
+hd152541
+hd152979
+hd153261
+hd153295
+hd153879
+hd154040
+hd154111
+hd154154
+hd154243
+hd154450
+hd154911
+hd155438
+hd155806
+hd155851
+hd156325
+hd156468
+hd157832
+hd158319
+hd159489
+hd160202
+hd160886
+hd161103
+hd161261
+hd161543
+hd161711, V*_GT_Dra
+hd161756
+hd161756
+hd161774
+hd161807
+hd162352
+hd162428
+hd162568
+hd163454
+hd163848
+hd163868
+hd164447
+hd164906
+hd165063
+hd165285
+hd165854
+hd165921
+hd166014, *_omi_Her
+hd166256
+hd166443
+hd166524
+hd166566
+hd166596, V*_V692_CrA
+hd168135
+hd168797
+hd168957
+hd169033
+hd169805
+hd170061
+hd170235
+hd170682
+hd170835
+hd171348
+hd171406
+hd171754
+hd171757
+hd171780
+hd172158
+hd172252
+hd172256
+hd173219
+hd173370, *_4_Aql
+hd173371
+hd173637
+hd174513
+hd174571
+hd174638, *_bet_Lyr
+hd175863
+hd176159
+hd177015
+hd177291
+hd177648
+hd178475, *_iot_Lyr
+hd179343
+hd179405
+hd181409
+hd182645
+hd183362
+hd187350
+hd187567
+hd187851
+hd190944
+hd191531, V*_V372_Sge
+hd191639
+hd192445
+hd192685
+hd193009
+hd193182
+hd194244
+hd194883
+hd195325, *_1_Del
+hd195407
+hd195554
+hd196712
+hd197038
+hd197419
+hd197434
+hd198512
+hd198625
+hd198895
+hd198931
+hd199218
+hd199356
+hd200310, *_60_Cyg
+hd201522
+hd202904, *_ups_Cyg
+hd203025
+hd203064, *_68_Cyg
+hd203699
+hd203731
+hd204116
+hd204185
+hd204722
+hd204860
+hd205060
+hd205551
+hd205618
+hd207232
+hd208220
+hd208392
+hd208886
+hd211835
+hd212044
+hd212666
+hd212791
+hd213088
+hd213129
+hd214167, *_8_Lac_A
+hd215227
+hd215605
+hd216057
+hd216200, *_14_Lac
+hd216581
+hd216851
+hd217061
+hd218393
+hd218674
+hd220058
+hd220116
+hd223044
+hd223387
+hd224905
+hd225095
+hd225985
+hd227836
+hd228104
+hd228438
+hd228860
+hd229171
+hd230579
+hd232552
+hd235668
+hd235795
+hd236689
+hd236935
+hd237056
+hd239758
+hd244894
+hd245493
+hd246878
+hd248753
+hd249695
+hd250028
+hd250163
+hd250289
+hd254647
+hd256577
+hd276738
+hd298298
+hd300584
+hd302724
+hd302838
+hd305382
+hd306209
+hd306657
+hd306791
+hd306793
+hd306797
+hd306962
+hd306978
+hd307350
+hd312973
+hd316568
+hd316587
+hd316589
+hd350559
+cd-305559
+cpd-603087
+cpd-603108
+cpd-603122
+cpd-603125
+cpd-603126
+cpd-603128
+cpd-603129
+cpd-603144
+cpd-604551
+cpd-604708
+bd-132040
+bd-134936
+bd+351169
+bd+413731
+bd+473302
+bd+493735
+bd+532964
+bd+55589
+bd+56473, V*_V356_Per
+bd+56484
+bd+56493
+bd+56511
+bd+56548
+bd+56573
+bd+56579
+bd+56582
+bd+56624
+bd+57515
+bd+57607
+bd+58458
+bd+592829
+bd+612355
+bd+612380
+hd9612
+hd
