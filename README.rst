@@ -11,6 +11,17 @@ Visão geral:
 - Cada entrada tem um *key* (ou label) específico. Assume-se padronização nos rótulos e unidades (ler *unit definitions*).
 - O funcionamento é simples: entra-se com um valor ou uma lista de IDs e um rótulo (ou uma lista dos mesmos) e o robô do banco de dados faz uma busca pelos arquivos para todas as ocorrências da estrela de um ID que contenha um dos rótulos.
 
+Comandos úteis
+------------------
+.. code:: python
+
+    # in the directory of BeDB:
+    import bedb
+
+    idlist = ['aeri', 'hd11444']
+    for id_ in idlist:
+        bedb.show_id_results(id_)
+
 Estrutura de arquivos
 -----------------------
 A proposta é manter o seguinte:
@@ -99,19 +110,6 @@ Boolean quantities
 Time-flag
 ~~~~~~~~~~~
 - Uma coisa muito útil para dados de fotometria (ou outros, dependendo do contexto - como *vsini* variável de Achernar) é adicionar a informação temporal do dado. Sugestão de usar *J_* para dia juliano, e *M_* para o dia juliano modificado.
-
-
-.. 
-    Comandos úteis
-    ------------------
-    .. code:: python
-
-        # in the directory of BeDB:
-        import bedb
-
-        idlist = ['aeri', 'hd11444']
-        for id_ in idlist:
-            bedb.show_id_results(id_)
 
 
 TODOs

@@ -8,25 +8,14 @@
 """
 
 # import numpy as np
-import re as _re
+# import re as _re
 from glob import glob as _glob
 import numpy as _np
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __release__ = 'beta'
 __author__ = "Daniel Moser"
 __email__ = "dmfaes@gmail.com"
-
-
-def add_IDs(ids):
-    fids = open("../IDs.txt").read().lower().replace(' ', '')
-    fids = _re.split(',\n|,', fids)
-    f0 = open("../IDs.txt", 'a')
-    for i in range(len(ids)):
-        if ids[i].lower().replace(' ', '') not in fids:
-            f0.writelines(ids[i].lower().replace(' ', '')+",\n")
-    f0.close()
-    return
 
 
 def search_IDlist(idname):
@@ -52,4 +41,4 @@ def show_id_results(idname):
     return
 
 if __name__ == '__main__':
-    print('# This is module. Import `bedb` at this folder!')
+    print('# This is a module. Import `bedb` at this folder!')
